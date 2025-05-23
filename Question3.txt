@@ -6,5 +6,13 @@ Missed instruction représente les lignes de code qui n'ont pas pu être execut�
 
 Cov represent le pourcentage des lignes qui ont pu être testées. On peut voir que seule la méthode multi n'a pas été exécutée, confirmant la colonne missed instruction.
 
+Donc au total, il y a 83% des lignes de codes qui ont été exécuté.
+
+
+Pour améliorer ce resultat, que faire ? :
+
+Rajouter unr methode pour tester la méthode multi
+
+
 
 
