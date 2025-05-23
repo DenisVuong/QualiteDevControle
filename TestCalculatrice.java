@@ -9,11 +9,6 @@ public class TestCalculatrice extends Calculatrice{
 
     private Calculatrice calcul = new Calculatrice();
 
-    @BeforeEach
-    void setup(){
-
-    }
-
     @Test
     void testAdd(){
         assertEquals(calcul.add(2,3),5,"Ceci est la bonne répone");

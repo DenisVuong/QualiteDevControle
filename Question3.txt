@@ -1,0 +1,10 @@
+III - couverture de code :
+
+Interpretation :
+
+Missed instruction représente les lignes de code qui n'ont pas pu être executé. On peut donc voir que la methode multi, qui a une barre en rouge, n'a pas été executée de tout l'exécution.
+
+Cov represent le pourcentage des lignes qui ont pu être testées. On peut voir que seule la méthode multi n'a pas été exécutée, confirmant la colonne missed instruction.
+
+
+
