@@ -32,5 +32,10 @@ public class TestCalculatrice extends Calculatrice{
         assertNotEquals(calcul.mult(5,5), 30, "C'est la mauvaise réponse");
     }
 
+    @Test
+    void testMinus(){
+        assertEquals(calcul.minus(5,5), 0, "C'est la bonne réponse");
+        assertNotEquals(calcul.minus(5,5),-5,"Ce n'est pas la bonne réponse");
 
+    }
 }
